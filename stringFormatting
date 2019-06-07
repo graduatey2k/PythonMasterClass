@@ -1,0 +1,30 @@
+import string
+
+#June Calendar
+
+print()
+print("<June Calendar>")
+print("Su\tMo\tTu\tWe\tTh\tFr\tSa")
+print()
+print(" \t  \t  \t  \t  \t  \t01")
+print("02\t03\t04\t05\t06\t07\t08")
+print("09\t10\t11\t12\t13\t14\t15")
+print("16\t17\t18\t19\t20\t21\t22")
+print("23\t24\t25\t26\t27\t28\t29")
+print("30\t  \t  \t  \t  \t  \t  ")
+
+
+
+age = 24
+print("My age is " + str(age) + " years")
+print("My age is {0} years".format(age))
+print("My age is %a years" % age)
+print("%s %s %s %d %s" % ("My","age", "is", age, "years" ))
+
+for i in range(1,12):
+    print("No. %3d squared is %4d and cubed is %4d" %(i, i **2, i **3))
+
+print("Pi is approximately {0:12.50f}".format(22/7))
+
+flower = "blue vi"
+print('blue' in flower)
